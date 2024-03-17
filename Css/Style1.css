@@ -117,6 +117,7 @@
         display: flex;
         align-items: end;
         justify-content: left;
+        background-position: -40px;
     }
     #Text1{
         padding: 10px 15px;
@@ -317,8 +318,25 @@
         margin-bottom: 7px;
     }
 }
+@media screen and (max-width: 400px){
+    .MainC{
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+    .ImagesH{
+        grid-template-columns: repeat(2,190px);
+        grid-template-rows: repeat(4, 140px);
+        gap:4px;
+      }
+        .ContentN{
+            grid-template-columns: repeat(2,190px);
+            grid-template-rows: repeat(3, 140px);
+        }
+        .ContentS{
+            grid-template-columns: repeat(2,190px);
+        }
+}
 @media screen and (max-width: 375px){
-
 .menu {
         position: absolute;
         top: 0;
@@ -334,7 +352,7 @@
       .ImagesH{
         display: grid;
         grid-template-columns: repeat(2,175px);
-        grid-template-rows: repeat(4, 140px);
+        grid-template-rows: repeat(4, 125px);
         gap:4px;
       }
         .ContentN{
@@ -364,8 +382,15 @@
           }
           .ImagesH{
             grid-template-columns: repeat(2,150px);
-            grid-template-rows: repeat(4, 140px);
+            grid-template-rows: repeat(4, 100px);
             gap:4px;
+          }
+       
+          #Text3{
+            font-size: 15px;
+          }
+          #Text4{
+            font-size: 11px;
           }
             .ContentN{
                 grid-template-columns: repeat(2,150px);
@@ -374,8 +399,11 @@
             .ContentS{
                 grid-template-columns: repeat(2,150px);
             }
-            #Box1 , #Box3{
-                background-position: -70px;
+            #Box1{
+                background-position: -12px;
+            }
+            #Box3{
+                background-position: -40px;
             }
             #News1 , #News2 , #News3{
                 background-position: -50px;
@@ -396,32 +424,17 @@
         }
         .ImagesH{
             grid-template-columns: repeat(2,140px);
-            grid-template-rows: repeat(4, 140px);
+            grid-template-rows: repeat(4, 100px);
             gap:4px;
+          }
+          #Box1{
+            background-position: -20px;
           }
             .ContentN{
                 grid-template-columns: repeat(2,140px);
-                grid-template-rows: repeat(3, 140px);
+                grid-template-rows: repeat(3, 100px);
             }
             .ContentS{
                 grid-template-columns: repeat(2,140px);
-            }
-    }
-    @media screen and (max-width: 400px){
-        .MainC{
-            overflow-x: hidden;
-            max-width: 100%;
-        }
-        .ImagesH{
-            grid-template-columns: repeat(2,190px);
-            grid-template-rows: repeat(4, 140px);
-            gap:4px;
-          }
-            .ContentN{
-                grid-template-columns: repeat(2,190px);
-                grid-template-rows: repeat(3, 140px);
-            }
-            .ContentS{
-                grid-template-columns: repeat(2,190px);
             }
     }
