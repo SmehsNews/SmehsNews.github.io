@@ -313,6 +313,9 @@
         overflow-x: hidden;
         max-width: 100%;
     }
+    #linkM{
+        width: 95.7%;
+    }
     .ImagesH{
         grid-template-columns: repeat(2,190px);
         grid-template-rows: repeat(4, 140px);
@@ -327,6 +330,9 @@
         }
 }
 @media screen and (max-width: 375px){
+    #linkM{
+        width: 95%;
+    }
 .menu {
         position: absolute;
         top: 0;
@@ -357,6 +363,9 @@
         
 }
 @media screen and (max-width: 320px){
+    #linkM{
+        width: 94.5%;
+    }
 
     .menu {
             position: absolute;
