@@ -114,12 +114,13 @@ body{
     top: -10px;
     text-shadow: 0px 0px 15px white;
 }
-.MainC{
-    overflow-x: hidden;
-    width: 100%;
+#linkMa:hover{
+    top: -10px;
+    text-shadow: 0px 0px 15px white;
 }
+
 .Headlines{
-    margin: 20px 130px;
+    margin: 20px 140px;
 }
 #Greet{
     font-size: 40px;
@@ -142,12 +143,10 @@ body{
     opacity: 0.79;
 }
 .ImagesH{
-    padding-right: 130px;
     display: grid;
     grid-template-columns: repeat(6, 210px);
     grid-template-rows: repeat(2, 190px);
     gap: 8px;
-    margin-right: 130px;
 }
 .box{
     background-size: cover;
