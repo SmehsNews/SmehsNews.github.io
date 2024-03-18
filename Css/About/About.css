@@ -3,7 +3,7 @@
     display: grid;
     gap: 25px;
     grid-template-columns: repeat(2, 600px);
-    grid-template-rows: repeat(3, 520px);
+    grid-template-rows: repeat(4, 520px);
 }
 .Aboutus{
     grid-column: 1/2;
@@ -43,13 +43,35 @@
     background-size: cover;
     background-position: 0px -30px;
 }
+.AboutR{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin-top: 140px;
+}
+.AboutR1{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-top: 140px;
+}
+#Aboutit{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 40px;
+}
+#AboutitP{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 35px;
+}
 @media screen and (max-width: 435px){
     .AboutMain{
         margin: 5px 15px;
         display: grid;
         gap: 15px;
         grid-template-columns: repeat(2, 190px);
-        grid-template-rows: repeat(3, 190px);
+        grid-template-rows: repeat(4, 190px);
     }
     #AboutusH{
         font-size: 20px;
@@ -64,6 +86,24 @@
     #Abouti3{
         background-position: 0px -10px;
     }
+    .AboutR{
+        margin-top: 20px;
+    }
+    .AboutR1{
+        margin-top: 20px;
+    }
+    #Aboutit{
+        font-style: italic;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    #AboutitP{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 380px){
     .AboutMain{
@@ -71,7 +111,7 @@
         display: grid;
         gap: 15px;
         grid-template-columns: repeat(2, 170px);
-        grid-template-rows: repeat(3, 180px);
+        grid-template-rows: repeat(4, 180px);
     }
     #AboutT , #AimsT , #FutureT{
         font-size: 11px;
@@ -81,6 +121,7 @@
         font-size: 18px;
         font-weight: 600;
     }
+    
 }
 @media screen and (max-width: 320px){
     .AboutMain{
@@ -88,7 +129,7 @@
         display: grid;
         gap: 10px;
         grid-template-columns: repeat(2, 150px);
-        grid-template-rows: repeat(3, 150px);
+        grid-template-rows: repeat(4, 150px);
     }
     #AboutT , #AimsT , #FutureT{
         font-size: 10px;
@@ -98,4 +139,23 @@
         font-size: 15px;
         font-weight: 600;
     }
+    .AboutR{
+        margin-top: 20px;
+    }
+    .AboutR1{
+        margin-top: 20px;
+    }
+    #Aboutit{
+        font-style: italic;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    #AboutitP{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 13px;
+    }
+    
 }
