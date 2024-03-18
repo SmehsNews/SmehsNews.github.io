@@ -67,17 +67,6 @@
         top: 0px;
         text-shadow: 0px 0px 15px white;
     }
-    #TopP{
-        display: none;
-        position: relative;
-        top: 5px;
-        left: 10px;
-    }
-    #place{
-        font-size: 21px;
-        color: rgb(98, 98, 98);
-        font-weight: 400;
-    }
     .Headlines{
         margin: 10px 10px;
     }
@@ -148,37 +137,38 @@
         background-image: linear-gradient(to top, rgba(0, 0, 0, 0.986), rgba(0, 0, 0, 0));
     }
     #Box3{
-        grid-column: 2/3;
-        grid-row: 3/5;
+        grid-column: 1/2;
+        grid-row: 4/5;
         background-position: -40px;
         display: flex;
         align-items: end;
         justify-content: left;
     }
     #Text3{
-        padding: 10px 15px;
+        padding: 10px 5px;
         padding-top: 90px;
         font-weight: 500;
         line-height: 1;
-        font-size: 20px;
+        font-size: 13px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         background-image: linear-gradient(to top, rgba(0, 0, 0, 0.986), rgba(0, 0, 0, 0));
     }
     #Box4{
-        grid-column : 1/2;
-        grid-row: 4/5;
+        grid-column : 2/3;
+        grid-row: 3/5;
         display: flex;
         align-items: end;
         justify-content: left;
+        background-position: -15px;
     }
     #Text4{
-        padding: 5px 5px;
+        padding: 15px 10px;
         padding-top: 30px;
         width: 435px;
         font-weight: 500;
         line-height: 1;
-        font-size: 13px;
+        font-size: 18px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         background-image: linear-gradient(to top, rgba(0, 0, 0, 0.986), rgba(0, 0, 0, 0));
@@ -387,10 +377,10 @@
           }
        
           #Text3{
-            font-size: 15px;
+            font-size: 11px;
           }
           #Text4{
-            font-size: 11px;
+            font-size: 15px;
           }
             .ContentN{
                 grid-template-columns: repeat(2,150px);
