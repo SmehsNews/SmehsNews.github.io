@@ -6,6 +6,10 @@
     font-style: normal;
     zoom: 100%;
 }
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
   .top-nav {
     display: flex;
     flex-direction: row;
@@ -94,11 +98,25 @@
     top: 0px;
     padding: 15px 13px;
     transition: 0.4s;
-    width: 95.9%;
 }
+#linkMa{
+    color: white;
+    font-weight: 500;
+    position: relative;
+    top: 0px;
+    padding: 15px 13px;
+    transition: 0.4s;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
 #linkM:hover{
     top: -10px;
     text-shadow: 0px 0px 15px white;
+}
+.MainC{
+    overflow-x: hidden;
+    width: 100%;
 }
 .Headlines{
     margin: 20px 130px;
@@ -124,8 +142,9 @@
     opacity: 0.79;
 }
 .ImagesH{
+    padding-right: 130px;
     display: grid;
-    grid-template-columns: repeat(6, 190px);
+    grid-template-columns: repeat(6, 210px);
     grid-template-rows: repeat(2, 190px);
     gap: 8px;
     margin-right: 130px;
@@ -144,6 +163,7 @@
 #Text1{
     padding: 10px 15px;
     padding-top: 50px;
+    line-height: 1;
     font-weight: 500;
     font-size: 28px;
     border-bottom-left-radius: 10px;
@@ -161,6 +181,7 @@
 #Text2{
     padding: 10px 15px;
     padding-top: 50px;
+    line-height: 1;
     font-weight: 500;
     font-size: 20px;
     border-bottom-left-radius: 10px;
@@ -177,6 +198,7 @@
 }
 #Text3{
     padding: 10px 15px;
+    line-height: 1;
     padding-top: 90px;
     font-weight: 500;
     font-size: 20px;
@@ -193,7 +215,8 @@
     background-position: -100px;
 }
 #Text4{
-    padding: 5px 15px;
+    padding: 10px 15px;
+    line-height: 1;
     padding-top: 30px;
     width: 435px;
     font-weight: 500;
@@ -283,7 +306,8 @@
     margin-bottom: 30px;
 }
 .footer{
-    background-color: #141414;
+    background: linear-gradient(to top, #000000, #222222);
+    
     color: white;
     font-size: 30px;
 }
