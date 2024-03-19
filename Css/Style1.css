@@ -313,14 +313,14 @@
         margin-bottom: 7px;
     }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 405px){
     .MainC{
         overflow-x: hidden;
         max-width: 100%;
     }
     .ImagesH{
-        grid-template-columns: repeat(2,190px);
-        grid-template-rows: repeat(4, 140px);
+        grid-template-columns: repeat(2,188px);
+        grid-template-rows: repeat(4, 135px);
         gap:4px;
       }
         .ContentN{
