@@ -203,6 +203,9 @@
         grid-template-columns: repeat(2,195px);
         grid-template-rows: repeat(3, 140px);
     }
+    #News1{
+        background-position: -30px 0px;
+    }
     #News2{
         grid-column: 1/2;
     }
